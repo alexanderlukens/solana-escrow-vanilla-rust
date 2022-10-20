@@ -483,6 +483,7 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "solana-validator",
+ "spl-token",
  "thiserror",
 ]
 

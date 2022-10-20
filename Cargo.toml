@@ -8,9 +8,11 @@ publish = false
 [dependencies]
 solana-program = "=1.14.4"
 thiserror = "1.0.24"
+spl-token = {version = "3.2.0", features = ["no-entrypoint"]}
 
 [features]
 test-bpf = []
+no-entrypoint = []
 
 [dev-dependencies]
 assert_matches = "1.4.0"
